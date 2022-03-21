@@ -27,7 +27,6 @@ node ('') {
                         sh 'sudo npm install -g react-native-cli'
                         sh 'sudo npm install --global yarn --force'
                         sh 'sudo yarn add react-native-cli'
-                        sh 'sudo Yarn'
                         sh 'sudo npx react-native run-android'
                         sh "./gradlew clean"
                         sh 'echo $JAVA_HOME'
