@@ -24,8 +24,10 @@ node ('') {
                         sh 'sudo npm i -g npm@8.3.1'
                         sh 'sudo npm install --save-dev jetifier'
                         sh 'sudo npx jetify'
-                        sh 'sudo yarn install'
+                        sh 'sudo npm install -g react-native-cli'
+                        sh 'sudo npm install --global yarn'
                         sh 'sudo yarn add react-native-cli'
+                        sh 'sudo Yarn'
                         sh 'sudo npx react-native run-android'
                         sh "./gradlew clean"
                         sh 'echo $JAVA_HOME'
