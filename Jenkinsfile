@@ -25,7 +25,7 @@ node ('') {
                         sh 'sudo npm install --save-dev jetifier'
                         sh 'sudo npx jetify'
                         sh 'sudo npm install -g react-native-cli'
-                        sh 'sudo npm install --global yarn'
+                        sh 'sudo npm install --global yarn --force'
                         sh 'sudo yarn add react-native-cli'
                         sh 'sudo Yarn'
                         sh 'sudo npx react-native run-android'
